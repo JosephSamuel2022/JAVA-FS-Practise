@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+	<bean id="1" class="com.blueyonder.modal.Employee" scope="prototype">
+	<property name="employeeId" value="15"></property>
+	<property name="employeeName" value="Tom Cruise"></property>
+	<property name="dateofBirth" value="04/04/2022"></property>
+	
+	</bean>
+	
+	
+	<bean id="2" class="com.blueyonder.modal.Address">
+		
+		<property name="landMark" value="IT Park"></property>
+		<property name="street" value="Madhapur"></property>
+		<property name="city" value="Hyderabad"></property>
+		<property name="State" value="Dummy"></property>
+		<property name="country" value="India"/>
+	</bean>
+</beans>
